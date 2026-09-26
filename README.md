@@ -7,16 +7,22 @@ Instalador do sistema de emissão de contratos da **YES Energia Solar** (uso int
 
 ## Como instalar
 
-1. Em **Releases**, baixe o arquivo `YES-Contratos-vX.Y.Z.zip` da versão mais recente.
-2. Extraia **todo** o conteúdo numa pasta, por exemplo `C:\YES Contratos` (não abra de dentro do `.zip`).
-3. Abra **Iniciar YES Contratos**. Se o Windows perguntar se confia no arquivo: *Mais informações → Executar assim mesmo*.
+1. Em **Releases**, baixe `YES-Contratos-Setup-X.Y.Z.exe` da versão mais recente.
+2. Abra o arquivo e clique em **Avançar → Instalar**. Não pede senha de administrador do Windows.
+   - Se o Windows mostrar *"O Windows protegeu seu computador"*: clique em **Mais informações → Executar assim mesmo**
+     (o instalador ainda não tem assinatura digital).
+3. Abra o programa pelo ícone **YES Contratos** na Área de Trabalho. Ele abre numa janela própria.
 4. Na primeira vez, cole o **código de conexão** recebido por e-mail e entre com o login e a senha provisória.
 
-Requisitos: Windows, internet e Google Chrome ou Microsoft Edge (o Edge já vem no Windows).
+Requisitos: Windows, internet e Microsoft Edge ou Google Chrome (o Edge já vem no Windows).
 
 ## Atualizar
 
-Baixe a versão nova, extraia numa pasta nova e use-a no lugar da antiga. A configuração fica em `%APPDATA%\YES Contratos` e continua valendo.
+Baixe a versão nova e execute o instalador: ele atualiza por cima e mantém a sua configuração.
+
+## Remover
+
+*Configurações do Windows → Aplicativos → YES Contratos → Desinstalar*.
 
 ---
 Powered by Analytics
